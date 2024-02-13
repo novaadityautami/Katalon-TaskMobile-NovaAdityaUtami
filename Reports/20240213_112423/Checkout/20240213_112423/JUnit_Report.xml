@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="83.101" tests="2" failures="0" errors="0">
+   <testsuite name="Checkout" tests="2" failures="0" errors="0" time="83.101" skipped="0" timestamp="13-02-2024T11:24:28" hostname="admin - localhost" id="Test Suites/Checkout">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423"/>
+         <property name="logFiles" value="/Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/execution0.log, /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium_error.log, /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Checkout yes" time="40.63" classname="Test Cases/Checkout yes" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:24:28 - [TEST_CASE][PASSED] - Test Cases/Checkout yes: Test Cases/Checkout yes
+
+13-02-2024T11:24:28 - [TEST_STEP][PASSED] - startApplication("/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: '/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:24:28 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+13-02-2024T11:24:28 - [MESSAGE][INFO] - PATH: /usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+13-02-2024T11:24:28 - [MESSAGE][INFO] - APPIUM_HOME: /Users/admin/.appium
+
+13-02-2024T11:24:28 - [MESSAGE][INFO] - appium outlog: /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium.log
+
+13-02-2024T11:24:28 - [MESSAGE][INFO] - appium errlog: /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium_error.log
+
+13-02-2024T11:24:29 - [MESSAGE][INFO] - Appium server started on port 52,680
+
+13-02-2024T11:24:37 - [MESSAGE][PASSED] - Started app at: '/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:24:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView"), 0): Tapped on element 'Object Repository/android.widget.ImageView'
+
+13-02-2024T11:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView'
+
+13-02-2024T11:24:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:24:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/android.widget.EditText'
+
+13-02-2024T11:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:48 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/android.widget.EditText'
+
+13-02-2024T11:24:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/android.widget.Button - ADD'
+
+13-02-2024T11:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - ADD'
+
+13-02-2024T11:24:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView"), 0): Tapped on element 'Object Repository/android.widget.TextView'
+
+13-02-2024T11:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView'
+
+13-02-2024T11:24:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:24:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - Your Name"), "Test", 0): Text 'Test' has been set to element 'Object Repository/android.widget.EditText - Your Name'
+
+13-02-2024T11:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:55 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/android.widget.EditText - Your Name'
+
+13-02-2024T11:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - your.emailgmail.com"), "testing@gmail.com", 0): Text 'testing@gmail.com' has been set to element 'Object Repository/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:24:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:24:58 - [MESSAGE][PASSED] - Text 'testing@gmail.com' has been set to element 'Object Repository/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:24:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - 628123456789"), "081234567890", 0): Text '081234567890' has been set to element 'Object Repository/android.widget.EditText - 628123456789'
+
+13-02-2024T11:24:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:01 - [MESSAGE][PASSED] - Text '081234567890' has been set to element 'Object Repository/android.widget.EditText - 628123456789'
+
+13-02-2024T11:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/android.widget.EditText - Your Address"), "testing", 0): Text 'testing' has been set to element 'Object Repository/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:03 - [MESSAGE][PASSED] - Text 'testing' has been set to element 'Object Repository/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:03 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:25:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:25:04 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+13-02-2024T11:25:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.RelativeLayout'
+
+13-02-2024T11:25:05 - [TEST_STEP][PASSED] - tap(findTestObject("cehckout yes/android.widget.Button - YES"), 0): Tapped on element 'Object Repository/cehckout yes/android.widget.Button - YES'
+
+13-02-2024T11:25:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/cehckout yes/android.widget.Button - YES'
+
+13-02-2024T11:25:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:25:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout no" time="42.398" classname="Test Cases/Checkout no" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:25:08 - [TEST_CASE][PASSED] - Test Cases/Checkout no: Test Cases/Checkout no
+
+13-02-2024T11:25:08 - [TEST_STEP][PASSED] - startApplication("/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: '/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:25:08 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+13-02-2024T11:25:08 - [MESSAGE][INFO] - PATH: /usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+13-02-2024T11:25:08 - [MESSAGE][INFO] - APPIUM_HOME: /Users/admin/.appium
+
+13-02-2024T11:25:08 - [MESSAGE][INFO] - appium outlog: /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium.log
+
+13-02-2024T11:25:08 - [MESSAGE][INFO] - appium errlog: /Users/admin/Katalon Studio/Tugas Mobile/Reports/20240213_112423/Checkout/20240213_112423/appium_error.log
+
+13-02-2024T11:25:10 - [MESSAGE][INFO] - Appium server started on port 52,879
+
+13-02-2024T11:25:17 - [MESSAGE][PASSED] - Started app at: '/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:25:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/checkout no/android.widget.ImageButton'
+
+13-02-2024T11:25:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.ImageButton'
+
+13-02-2024T11:25:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/checkout no/android.widget.ImageButton (1)'
+
+13-02-2024T11:25:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.ImageButton (1)'
+
+13-02-2024T11:25:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.ImageView"), 0): Tapped on element 'Object Repository/checkout no/android.widget.ImageView'
+
+13-02-2024T11:25:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.ImageView'
+
+13-02-2024T11:25:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/checkout no/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:25:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:25:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout no/android.widget.EditText"), "1", 0): Text '1' has been set to element 'Object Repository/checkout no/android.widget.EditText'
+
+13-02-2024T11:25:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:30 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/checkout no/android.widget.EditText'
+
+13-02-2024T11:25:30 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/checkout no/android.widget.Button - ADD'
+
+13-02-2024T11:25:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.Button - ADD'
+
+13-02-2024T11:25:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.TextView"), 0): Tapped on element 'Object Repository/checkout no/android.widget.TextView'
+
+13-02-2024T11:25:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.TextView'
+
+13-02-2024T11:25:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/checkout no/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:25:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:25:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout no/android.widget.EditText - Your Name"), "Testing paypal", 0): Text 'Testing paypal' has been set to element 'Object Repository/checkout no/android.widget.EditText - Your Name'
+
+13-02-2024T11:25:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:38 - [MESSAGE][PASSED] - Text 'Testing paypal' has been set to element 'Object Repository/checkout no/android.widget.EditText - Your Name'
+
+13-02-2024T11:25:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.EditText - your.emailgmail.com"), 0): Tapped on element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.EditText - Your Address"), 0): Tapped on element 'Object Repository/checkout no/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.EditText - your.emailgmail.com"), 0): Tapped on element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout no/android.widget.EditText - your.emailgmail.com"), "test@gmail.com", 0): Text 'test@gmail.com' has been set to element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:43 - [MESSAGE][PASSED] - Text 'test@gmail.com' has been set to element 'Object Repository/checkout no/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout no/android.widget.EditText - Your Address"), "test", 0): Text 'test' has been set to element 'Object Repository/checkout no/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:46 - [MESSAGE][PASSED] - Text 'test' has been set to element 'Object Repository/checkout no/android.widget.EditText - Your Address'
+
+13-02-2024T11:25:46 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:25:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:25:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/checkout no/android.widget.FrameLayout'
+
+13-02-2024T11:25:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.FrameLayout'
+
+13-02-2024T11:25:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/checkout no/android.widget.Button - NO"), 0): Tapped on element 'Object Repository/checkout no/android.widget.Button - NO'
+
+13-02-2024T11:25:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:25:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/checkout no/android.widget.Button - NO'
+
+13-02-2024T11:25:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T11:25:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T11:24:28 - [TEST_SUITE][PASSED] - Checkout: Test Cases/Checkout no]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

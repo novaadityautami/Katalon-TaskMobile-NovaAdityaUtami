@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,,,,13-02-2024 11:24:28,13-02-2024 11:25:51,1m - 23.101s,PASSED
+,,,,,,,
+Test Cases/Checkout yes,,,,13-02-2024 11:24:28,13-02-2024 11:25:08,40.630s,PASSED
+"startApplication(""/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:24:28,13-02-2024 11:24:37,9.199s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.ImageView""), 0)",,,,13-02-2024 11:24:37,13-02-2024 11:24:44,6.656s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:24:44,13-02-2024 11:24:44,0.756s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 11:24:44,13-02-2024 11:24:48,3.052s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:24:48,13-02-2024 11:24:48,0.800s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView""), 0)",,,,13-02-2024 11:24:48,13-02-2024 11:24:49,0.802s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 11:24:49,13-02-2024 11:24:51,1.422s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - Your Name""), ""Test"", 0)",,,,13-02-2024 11:24:51,13-02-2024 11:24:55,4.310s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - your.emailgmail.com""), ""testing@gmail.com"", 0)",,,,13-02-2024 11:24:55,13-02-2024 11:24:58,2.707s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - 628123456789""), ""081234567890"", 0)",,,,13-02-2024 11:24:58,13-02-2024 11:25:01,3.032s,PASSED
+"setText(findTestObject(""Object Repository/android.widget.EditText - Your Address""), ""testing"", 0)",,,,13-02-2024 11:25:01,13-02-2024 11:25:03,2.705s,PASSED
+hideKeyboard(),,,,13-02-2024 11:25:03,13-02-2024 11:25:04,0.861s,PASSED
+"tap(findTestObject(""android.widget.RelativeLayout""), 0)",,,,13-02-2024 11:25:04,13-02-2024 11:25:05,0.775s,PASSED
+"tap(findTestObject(""cehckout yes/android.widget.Button - YES""), 0)",,,,13-02-2024 11:25:05,13-02-2024 11:25:06,1.507s,PASSED
+closeApplication(),,,,13-02-2024 11:25:06,13-02-2024 11:25:08,1.932s,PASSED
+,,,,,,,
+Test Cases/Checkout no,,,,13-02-2024 11:25:08,13-02-2024 11:25:51,42.398s,PASSED
+"startApplication(""/Users/admin/Downloads/Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:25:08,13-02-2024 11:25:17,8.814s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.ImageButton""), 0)",,,,13-02-2024 11:25:17,13-02-2024 11:25:22,4.596s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.ImageButton (1)""), 0)",,,,13-02-2024 11:25:22,13-02-2024 11:25:24,1.787s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.ImageView""), 0)",,,,13-02-2024 11:25:24,13-02-2024 11:25:26,2.756s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:25:26,13-02-2024 11:25:27,0.810s,PASSED
+"setText(findTestObject(""Object Repository/checkout no/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 11:25:27,13-02-2024 11:25:30,3.104s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:25:30,13-02-2024 11:25:31,0.777s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.TextView""), 0)",,,,13-02-2024 11:25:31,13-02-2024 11:25:32,0.879s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 11:25:32,13-02-2024 11:25:33,1.444s,PASSED
+"setText(findTestObject(""Object Repository/checkout no/android.widget.EditText - Your Name""), ""Testing paypal"", 0)",,,,13-02-2024 11:25:33,13-02-2024 11:25:38,4.511s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.EditText - your.emailgmail.com""), 0)",,,,13-02-2024 11:25:38,13-02-2024 11:25:39,0.908s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.EditText - Your Address""), 0)",,,,13-02-2024 11:25:39,13-02-2024 11:25:40,0.909s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.EditText - your.emailgmail.com""), 0)",,,,13-02-2024 11:25:40,13-02-2024 11:25:41,1.707s,PASSED
+"setText(findTestObject(""Object Repository/checkout no/android.widget.EditText - your.emailgmail.com""), ""test@gmail.com"", 0)",,,,13-02-2024 11:25:41,13-02-2024 11:25:43,1.467s,PASSED
+"setText(findTestObject(""Object Repository/checkout no/android.widget.EditText - Your Address""), ""test"", 0)",,,,13-02-2024 11:25:43,13-02-2024 11:25:46,2.621s,PASSED
+hideKeyboard(),,,,13-02-2024 11:25:46,13-02-2024 11:25:46,0.804s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.FrameLayout""), 0)",,,,13-02-2024 11:25:46,13-02-2024 11:25:47,0.884s,PASSED
+"tap(findTestObject(""Object Repository/checkout no/android.widget.Button - NO""), 0)",,,,13-02-2024 11:25:47,13-02-2024 11:25:49,1.469s,PASSED
+closeApplication(),,,,13-02-2024 11:25:49,13-02-2024 11:25:51,2.093s,PASSED
